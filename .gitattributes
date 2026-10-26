@@ -1,0 +1,7 @@
+# 只给 Windows 用的工程：批处理与源码统一按 CRLF 签出，
+# 避免不同机器上 core.autocrlf 设置不同导致 build.cmd 行为漂移
+* text=auto
+*.cmd text eol=crlf
+*.cs text eol=crlf
+*.manifest text eol=crlf
+*.md text eol=crlf

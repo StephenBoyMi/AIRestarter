@@ -1,0 +1,5 @@
+# 本地回退快照与核对图，不入库
+backup/
+
+# 编译产物，走 Release 附件分发
+AIRestarter.exe
